@@ -53,8 +53,8 @@ body{
 }
 
 .socials img{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     margin: 5px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     transition: filter 0.10s, height 0.30s, width 0.30s;
@@ -105,7 +105,7 @@ body{
 .imBg{
     display: flex;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .cartoon{
@@ -116,7 +116,7 @@ body{
 
 @media only screen and (max-width: 415px) {
     .cartoon{
-        width: 145px;
+        width: 150px;
     }
 
     .imContainer{
