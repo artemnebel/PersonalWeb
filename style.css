@@ -1,0 +1,136 @@
+/* Color Palate 1-9*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --blue9: #03045e;
+    --blue8: #023e8a;
+    --blue7: #0077b6;
+    --blue6: #0096c7;
+    --blue5: #00b4d8;
+    --blue4: #48cae4;
+    --blue3: #90e0ef;
+    --blue2: #ade8f4;
+    --blue1: #caf0f8;
+}
+@font-face {
+    font-family: titleFont;
+    src: url(/Rsources/From\ Cartoon\ Blocks.ttf);
+}
+@font-face {
+    font-family: textFont;
+    src: url(/Rsources/Life\ is\ goofy.ttf);
+}
+
+
+body{
+    background-color: var(--blue6);
+}
+
+.mainH{
+    display: flex;
+    margin-top: 20px;
+    font-family: titleFont;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    position: relative;
+
+}
+
+.socials{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.socials img{
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    transition: filter 0.10s, height 0.30s, width 0.30s;
+
+}
+
+.socials img:hover{
+    height: 39px;
+    width: 39px;
+}
+
+.socials img:active{
+    filter: invert(16%) sepia(39%) saturate(5052%) hue-rotate(205deg) brightness(92%) contrast(98%);
+}
+
+.imContainer{
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+.imContainer h3{
+    font-family: titleFont;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.imoj{
+    width: 15px;
+}
+
+.imContainer p{
+    font-family: textFont;
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.imBg{
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.cartoon{
+    display: flex;
+    width: 180px;
+    float: right;
+}
+
+@media only screen and (max-width: 415px) {
+    .cartoon{
+        width: 145px;
+    }
+
+    .imContainer{
+        width: 80%;
+    }
+
+    .mainH{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .imContainer{
+        width: 50%;
+    }
+}
+
