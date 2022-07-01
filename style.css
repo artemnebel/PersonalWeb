@@ -27,6 +27,7 @@
 
 body{
     background-color: var(--blue6);
+    height: 2000px;
 }
 
 .mainH{
@@ -62,8 +63,8 @@ body{
 }
 
 .socials img:hover{
-    height: 39px;
-    width: 39px;
+    height: 44px;
+    width: 44px;
 }
 
 .socials img:active{
@@ -75,7 +76,7 @@ body{
     margin: auto;
     border-radius: 10px;
     margin: auto;
-    width: 60%;
+    width: 30%;
     height: 400px;
     background-color: white;
     justify-content: center;
@@ -97,7 +98,7 @@ body{
 
 .imContainer p{
     font-family: textFont;
-    font-size: 22px;
+    font-size: 23px;
     margin-left: 40px;
     margin-top: 5px;
 }
@@ -109,28 +110,26 @@ body{
 }
 
 .cartoon{
+    position: relative;
     display: flex;
-    width: 180px;
+    top: -45px;
+    left: -40px;
+    width: 250px;
     float: right;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: px) {
     .cartoon{
-        width: 150px;
+        width: 200px;
+        left: -20px;
     }
 
     .imContainer{
-        width: 80%;
+        width: 40%;
     }
 
     .mainH{
         font-size: 30px;
-    }
-}
-
-@media only screen and (min-width: 1020px) {
-    .imContainer{
-        width: 50%;
     }
 }
 
