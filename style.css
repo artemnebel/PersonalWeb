@@ -85,6 +85,7 @@ body{
 }
 
 .imContainer h3{
+    color: var(--blue7);
     font-family: titleFont;
     font-size: 30px;
     text-align: center;
@@ -118,8 +119,31 @@ body{
     float: right;
 }
 
+.athleticsButton{
+    margin: 10px;
+    text-align: center;
+}
+
+.athleticsButton button{
+    padding: 8px 0px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    font-family: textFont;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--blue7);
+    transition: box-shadow 0.25s;
+}
+
+.athleticsButton button:hover{
+    box-shadow: 0 7px 5px  var(--blue8);
+}
+
 /* tablet screen 920 */ 
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 1000px){
     .imContainer{
         width: 60%;
 
