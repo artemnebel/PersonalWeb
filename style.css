@@ -54,8 +54,8 @@ body{
 }
 
 .socials img{
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     margin: 5px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     transition: filter 0.10s, height 0.30s, width 0.30s;
@@ -63,8 +63,8 @@ body{
 }
 
 .socials img:hover{
-    height: 44px;
-    width: 44px;
+    height: 49px;
+    width: 49px;
 }
 
 .socials img:active{
