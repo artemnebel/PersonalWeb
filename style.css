@@ -27,7 +27,7 @@
 
 body{
     background-color: var(--blue7);
-    height: 2000px;
+    height: 1080px;
 }
 
 .mainH{
@@ -149,7 +149,7 @@ body{
 
     }
     .cartoon{
-        width: 240px;
+        width: 220px;
         left: -10px;
     }
 }
@@ -162,6 +162,7 @@ body{
     .cartoon{
         float: none;
         position: absolute;
+        width: 250px;
         top: 550px;
         left: 25%;
     }

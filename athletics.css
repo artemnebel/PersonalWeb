@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --blue9: #03045e;
+    --blue8: #023e8a;
+    --blue7: #0077b6;
+    --blue6: #0096c7;
+    --blue5: #00b4d8;
+    --blue4: #48cae4;
+    --blue3: #90e0ef;
+    --blue2: #ade8f4;
+    --blue1: #caf0f8;
+}
+body{
+    background-color: var(--blue7);
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(/Rsources/From\ Cartoon\ Blocks.ttf);
+}
+@font-face {
+    font-family: textFont;
+    src: url(/Rsources/Life\ is\ goofy.ttf);
+}
+
+.heading{
+    font-family: titleFont;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
