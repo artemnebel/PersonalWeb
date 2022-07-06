@@ -118,18 +118,34 @@ body{
     float: right;
 }
 
-@media only screen and (max-width: px) {
-    .cartoon{
-        width: 200px;
-        left: -20px;
-    }
-
+/* tablet screen 920 */ 
+@media only screen and (max-width: 920px){
     .imContainer{
-        width: 40%;
-    }
+        width: 60%;
 
+    }
+    .cartoon{
+        width: 240px;
+        left: -10px;
+    }
+}
+/* mobile screen 500px */
+@media only screen and (max-width: 514px){
+    .imContainer{
+        width: 80%;
+        height: 650px;
+    }
+    .cartoon{
+        float: none;
+        position: absolute;
+        top: 550px;
+        left: 25%;
+    }
     .mainH{
         font-size: 30px;
     }
+    .imContainer p{
+        font-size: 23px;
+        margin-left: 25%;
+    }
 }
-
