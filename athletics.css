@@ -102,6 +102,30 @@ h2{
     color: white;
 }
 
+#back{
+    margin: 10px;
+    padding: 8px 0px;
+    border: none;
+    height: 28px;
+    width: 54px;
+    font-family: textFont;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--blue7);
+    transition: width 0.30s, heigh 0.30s, background-color 0.30s, color 0.30s;
+}
+
+#back:hover{
+    width: 60px;
+}
+
+#back:active{
+    background-color: var(--blue8);
+    color: white;
+}
+
 #ljump{
     grid-area: ljump;
 }
