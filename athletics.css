@@ -33,3 +33,87 @@ body{
     text-align: center;
     color: white;
 }
+
+
+.card{
+    margin-top: 20px;
+    font-family: textFont;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    font-family: titleFont;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.pr{
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.2fr, 1fr;
+    grid-template-areas:
+    "hjump ljump tjump"
+    "vid3 vid2 vid1";
+}
+
+.vids{
+    margin: auto;
+}
+
+#button{
+    margin: 30px;
+    text-align: center;
+}
+
+#button button{
+    padding: 8px 0px;
+    border: none;
+    height: 30px;
+    width: 86px;
+    font-family: textFont;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--blue7);
+    transition: box-shadow 0.25s, background-color 0.30s, color 0.30s;
+}
+
+#button button:hover{
+    box-shadow: 0 7px 5px  var(--blue8);
+}
+#button button:active{
+    background-color: var(--blue8);
+    color: white;
+}
+
+#ljump{
+    grid-area: ljump;
+}
+#tjump{
+    grid-area: tjump;
+}
+
+#vid1{
+    grid-area: vid1;
+}
+
+#vid1{
+    grid-area: vid2;
+}
+

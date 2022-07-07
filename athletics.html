@@ -10,9 +10,22 @@
 <body>
     <div class="container">
         <div class="heading"><h1>Athletics</h1></div>
-        <div class="photoGrid">
+        <h2>My PR's</h2>
+        <div class="pr">
+            <div id="ljump" class="card">Long Jump: 19'8.5ft</div> 
+            <video width="230" height="400" controls autoplay muted
+            id="vid1" class="vids" src="/Rsources/img/longJump.mov" type="video/mov"></video>
             
+            <div id="hjump" class="card">High Jump: 5'4ft</div>
+            <video width="230" height="400" controls autoplay muted
+            id="vid3" class="vids" src="/Rsources/img/highJump.mp4" type="video/mp4"></video>
+
+            <div id="tjump" class="card">Triple Jump: 38ft</div>
+            <video width="230" height="400" controls autoplay muted
+            id="vid2" class="vids" src="/Rsources/img/tripleJump.mp4" type="video/mp4"></video>
         </div>
+       <div onclick="playPause1(),playPause2(),playPause3()" id="button" type="button"><button>Play/Pause</button></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
