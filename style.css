@@ -101,7 +101,7 @@ body{
     font-family: textFont;
     font-size: 23px;
     margin-left: 40px;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .imBg{
@@ -151,6 +151,7 @@ body{
 
     .imContainer p{
         margin-left: 100px;
+        font-size: 26px;
     }
     .cartoon{
         width: 280px;
