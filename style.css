@@ -148,9 +148,14 @@ body{
         width: 60%;
 
     }
+
+    .imContainer p{
+        margin-left: 100px;
+    }
     .cartoon{
-        width: 220px;
-        left: -10px;
+        width: 280px;
+        left: -80px;
+        top: -60px;
     }
 }
 /* mobile screen 500px */
