@@ -75,12 +75,12 @@ h2{
     margin: auto;
 }
 
-#button{
+#plybutton{
     margin: 30px;
     text-align: center;
 }
 
-#button button{
+#plybutton button{
     padding: 8px 0px;
     border: none;
     height: 30px;
@@ -94,15 +94,17 @@ h2{
     transition: box-shadow 0.25s, background-color 0.30s, color 0.30s;
 }
 
-#button button:hover{
+#plybutton button:hover{
     box-shadow: 0 7px 5px  var(--blue8);
 }
-#button button:active{
+#plybutton button:active{
     background-color: var(--blue8);
     color: white;
 }
 
 #back{
+    position: sticky;
+    top: 0;
     margin: 10px;
     padding: 8px 0px;
     border: none;
@@ -139,5 +141,23 @@ h2{
 
 #vid1{
     grid-area: vid2;
+}
+
+@media only screen and (max-width: 500px){
+    .pr{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr, 1fr, 0.2fr, 1fr, 0.2fr, 1fr,;
+        grid-template-areas:
+        "ljump"
+        "vid2"
+        "hjump"
+        "vid3"
+        "tjump"
+        "vid1";
+    }
+    #plybutton{
+        display: none;
+    }
+
 }
 

@@ -1,7 +1,7 @@
 var Video1 = document.getElementById("vid1");
 var Video2 = document.getElementById("vid2");
 var Video3 = document.getElementById("vid3");
-var Button = document.getElementById("button");
+var Button = document.getElementById("plybutton");
 
 
 
