@@ -143,7 +143,7 @@ body{
 }
 
 /* tablet screen 920 */ 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1500px){
     .imContainer{
         width: 60%;
 
