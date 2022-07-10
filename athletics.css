@@ -54,6 +54,7 @@ body{
 
 
 h2{
+    margin-top: 50px;
     font-family: titleFont;
     font-size: 40px;
     text-align: center;
@@ -61,6 +62,7 @@ h2{
 }
 
 .pr{
+    margin-top: 30px;
     overflow: hidden;
     display: grid;
     gap: 1rem;
@@ -77,7 +79,7 @@ h2{
 }
 
 #plybutton{
-    margin: 30px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -131,6 +133,8 @@ h2{
 
 /* photo album */
 .photo-album{
+    margin-top: 50px;
+    margin-bottom: 100px;
     --gap: 12px;
     --num-cols: 4;
     --row-height: 300px;
