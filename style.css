@@ -143,14 +143,14 @@ body{
 }
 
 /* tablet screen 920 */ 
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1650px){
     .imContainer{
         width: 60%;
 
     }
 
     .imContainer p{
-        margin-left: 100px;
+        margin-left: 80px;
         font-size: 26px;
     }
     .cartoon{
@@ -160,7 +160,7 @@ body{
     }
 }
 /* mobile screen 500px */
-@media only screen and (max-width: 514px){
+@media only screen and (max-width: 650px){
     .imContainer{
         width: 80%;
         height: 650px;
@@ -169,8 +169,8 @@ body{
         float: none;
         position: absolute;
         width: 250px;
-        top: 550px;
-        left: 25%;
+        top: 530px;
+        left: 28%;
     }
     .mainH{
         font-size: 30px;
